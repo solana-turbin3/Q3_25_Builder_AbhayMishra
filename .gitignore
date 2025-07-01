@@ -1,0 +1,27 @@
+# Rust residuals
+*.rs.bk
+*.rlib
+*.dSYM
+Cargo.lock
+*.lock
+target/
+
+# TypeScript residuals
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+*.tsbuildinfo
+
+# Wallet files (match any filename ending with "wallet")
+*wallet
+*wallet.*
+
+# Specific wallet files
+wallet.json
+dev-wallet.json
+
+# Node dependencies and environment
+node_modules/
+.env
+submodules/
